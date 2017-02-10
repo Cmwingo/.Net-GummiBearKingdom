@@ -1,0 +1,24 @@
+{
+  "name": "gummi_bear_kingdom",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Wingo <cmwingo@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Cmwingo/.Net-GummiBearKingdom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.3",
+    "bootstrap": "3.3.6"
+  },
+  "resolutions": {
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -3,12 +3,30 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
+    <script src="~/js/bootstrap.js"></script>
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="header">
+        <div class="logo">@Html.ActionLink("Back to Gummi Kingdom", "Index", "Home")</div>
+        <div class="custom-nav">
+            @Html.ActionLink("Products", "Index", "Products")
+        </div>
+    </div>
+    <div class="container-fluid">
         @RenderBody()
+    </div>
+    <div class="footer flex-container">
+        <div class="flex-item">
+            <h4>Contact Info</h4>
+            <p>5067 NE Candy Lane</p>
+            <p>Wonkaville, MD 03992</p>
+            <p>555-223-2211</p>
+        </div>
     </div>
 </body>
 </html>
