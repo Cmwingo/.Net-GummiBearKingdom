@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DAC65575-005B-45EF-AA82-6797910A5D65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBD0B199-D896-4326-BC10-94FA0E3A820B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GummiBearKingdom", "src\GummiBearKingdom\GummiBearKingdom.xproj", "{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD895F9E-9755-44E5-8CE0-2E3E0778CAD6} = {DAC65575-005B-45EF-AA82-6797910A5D65}
+	EndGlobalSection
+EndGlobal
