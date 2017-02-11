@@ -42,6 +42,7 @@
     width:100%;
     background:linear-gradient(to right, #60646b, #43464c);
     color:ivory;
+    padding-left:20px;
 }
 .footer p, h4 {
     margin:0px;
@@ -55,7 +56,8 @@
     background-color:mediumvioletred;
     color: white;
     margin:0px;
-    padding:0px;
+    padding:15px;
+    font-size:200%;
 }
 
 .about img {
