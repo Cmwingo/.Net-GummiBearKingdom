@@ -11,7 +11,10 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <https://github.com/Cmwingo/.Net-GummiBearKingdom>` this repository
-* Open the project in Visual Studio and run it
+* Open the project in Visual Studio, right click on the solution folder in the solution explorer window, and select build
+* From the command line, navigate to the project directory containing your project.json file
+* 'dotnet ef database update MakeCostDecimal' to migrate the database to your local database
+* You should then be able to run the project in Visual Studio
 
 ## Inspired By
 This site's design was inspired by https://www.oldtimecandy.com/
